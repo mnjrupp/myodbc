@@ -8,8 +8,6 @@ ODBC SQL command line tool for DSN
 2)compile using MS Visual C++ 2010 express
 
 3) Set up a DSN to any data source using the ODBC driver for the source.
-
-  This is designed to work with any datasource as long as the vendor supplies an ODBC driver.
 4)Open cmd prompt and type "myodbc"
   
 
@@ -30,6 +28,7 @@ Usage: <data source> [-n] [-f][sql][-s][table][-i file]
              necessary, but complete filename w/path must
              follow this flag.
 
+This is designed to work with any datasource as long as the vendor supplies an ODBC driver.
 You can type sql or use a sql file. Ex
 
 Using SQL:
